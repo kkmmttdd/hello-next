@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "../styles/hoge.module.css"
 
 const StyledHeader = ({children}) => {
     return (
@@ -20,6 +21,6 @@ export default () => {
     return (
         <div>
             <StyledHeader>hogehoge</StyledHeader>
-            <h1>hogehoge</h1>
+            <h1 className={styles.greenColor}>hogehoge</h1>
         </div>)
 }
