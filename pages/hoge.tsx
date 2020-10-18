@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/hoge.module.css"
+import Link from "next/link"
 
 const StyledHeader = ({children}) => {
     return (
@@ -22,5 +23,8 @@ export default () => {
         <div>
             <StyledHeader>hogehoge</StyledHeader>
             <h1 className={styles.greenColor}>hogehoge</h1>
+            <Link href={"/"}>
+                <a>waaaaaaaaaaaaaaaaaaaa</a>
+            </Link>
         </div>)
 }
